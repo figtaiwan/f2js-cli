@@ -1,6 +1,6 @@
 {
   "name": "f2js-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "command line interface for forth to javascript transpiler",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
   },
   "bin": {
     "f2js": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "keywords": [
     "forth",
