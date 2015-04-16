@@ -1,0 +1,29 @@
+{
+  "name": "f2js-cli",
+  "version": "0.0.2",
+  "description": "command line interface for forth to javascript transpiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "forthtranspiler": "git+https://github.com/figtaiwan/forthtranspiler.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/figtaiwan/f2js-cli.git"
+  },
+  "bin": {
+    "f2js": "./bin/index.js"
+  },
+  "keywords": [
+    "forth",
+    "transpiler"
+  ],
+  "author": "samsuanchen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/figtaiwan/f2js-cli/issues"
+  },
+  "homepage": "https://github.com/figtaiwan/f2js-cli"
+}
